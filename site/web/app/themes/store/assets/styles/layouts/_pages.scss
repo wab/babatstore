@@ -1,0 +1,50 @@
+.home {
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.column {
+		min-height: 50vh;
+		flex-basis: 100%;
+		padding: 2em;
+		@include media-breakpoint-up(md) {
+			flex-basis: 50%;
+			min-height: 100vh;
+		}
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.wrapper {
+			max-width: 400px;
+		}
+	}
+
+	.professionnels {
+		background: $brand-primary;
+		color: $body-bg;
+
+		.btn-primary-outline {
+		  @include button-outline-variant($body-bg);
+		  &:hover, &:focus {
+			color: $brand-primary;
+		  }
+		}
+	}
+
+	.intro {
+		padding: 1em;
+		width: 100%;
+		@include media-breakpoint-up(md) {
+			position: absolute;
+			top: 0;
+			
+		}
+	}
+}
+
+.page-template-page-store {
+	.intro {
+		background: $gray-lighter;
+	}
+}

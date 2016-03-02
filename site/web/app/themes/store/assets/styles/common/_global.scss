@@ -1,0 +1,13 @@
+.brand {
+	display: inline-block;
+	margin: $spacer 0;
+	padding: $spacer / 2;
+}
+
+.section {
+	padding: ($spacer-y * 3) 0;
+}
+
+.contenu {
+	max-width: 600px;
+}
