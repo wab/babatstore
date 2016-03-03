@@ -1,5 +1,6 @@
 <section class="section contact">
 	<div class="container">
+		<a name="contact" id="contact"></a>
 		<h2>Besoin d'un renseignement ?</h2>
 		<div class="row">
 			<div class="col-md-6">
@@ -12,9 +13,16 @@
 				    <label for="formGroupExampleInput2">email</label>
 				    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="votre email">
 				  </div>
-				  <div class="fomr-group">
+				  <div class="form-group">
+				    <label for="formGroupExampleInput2">objet</label>
+				    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="l'objet du message">
+				  </div>
+				  <div class="form-group">
 				  	<label for="formGroupExampleInput2">message</label>
 				    <textarea class="form-control" id="formGroupExampleInput2" placeholder="votre message"></textarea>
+				  </div>
+				  <div class="form-group">
+				  	<input type="submit" class="btn btn-primary" id="" valur="Envoyer">
 				  </div>
 				</form>
 			</div>

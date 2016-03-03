@@ -28,3 +28,21 @@
 		});
 	});
 })(window);
+
+(function() {
+	'use strict';
+	/*global ScrollMagic:true*/
+	/*eslint no-undef: 2*/
+	/*eslint no-unused-vars: 2*/
+	var controller = new ScrollMagic.Controller();
+	var menu = new ScrollMagic.Scene({
+		triggerElement: '#trigger',
+		triggerHook: 'onLeave'
+	})
+	.setClassToggle('.menu', 'fix');
+
+	// Add Scene to ScrollMagic Controller
+	controller.addScene(menu);
+
+})();
+
