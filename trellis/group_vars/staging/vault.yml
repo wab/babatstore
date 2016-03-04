@@ -12,11 +12,11 @@ vault_wordpress_sites:
       db_password: dbpassword
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
       # These CANNOT contain the characters "{%" or "{{" in succession
-      # auth_key: "SG/gu9ERD{_:-rr7-&}h{2]fT|-ln.l|ReAfzc;<3U4j_ grVk_s84 YApx<fvcF"
-      # secure_auth_key: "VwpTu44e&-6t[.sOYY~4gU,(.h+T2a.x+D!#)1zii&CDG)1W)q6t.sf/W$7|)0gz"
-      # logged_in_key: "w7+r[i>~6;D^7=/])~QQ6+Ll;~#Ur9@q0#1Z27[0/GTs+qHyi>N{>Dp-SA_jPI%)"
-      # nonce_key: "|7KW|N6zP9}v[wBjdu&)`WP7v`T^+psBC,$.JW`WGZ{R)f=PG9-9BqmdI|J=B~@M"
-      # auth_salt: "aOE/cZx3l_|O?a@EGg)%E-!;a`gNtsq-+)lC&6qbD0*sKTe![{J]v8hqd1edJ8hv"
-      # secure_auth_salt: "{zMj;,}*Nd14Pb{f] e/Z?K>Sg;Nc%-!Lstz4VW_8O5Q?SAVk.wj^p5Pq%a4/Omw"
-      # logged_in_salt: "TlSr2R9oX`HXq;c#F2Oj%GFjiuHXU--qC?,j@ i!jmvn~|t>1PAz2bB3I+N8q+Dr"
-      # nonce_salt: "S+4q>- ci9H]3.W%4;[|MS{_@p<A%q;K!9uIJyBeU0@,Ej0s>NROYt=:(Lcu|^$}"
+      auth_key: "SG/gu9ERD{_:-rr7-&}h{2]fT|-ln.l|ReAfzc;<3U4j_ grVk_s84 YApx<fvcF"
+      secure_auth_key: "VwpTu44e&-6t[.sOYY~4gU,(.h+T2a.x+D!#)1zii&CDG)1W)q6t.sf/W$7|)0gz"
+      logged_in_key: "w7+r[i>~6;D^7=/])~QQ6+Ll;~#Ur9@q0#1Z27[0/GTs+qHyi>N{>Dp-SA_jPI%)"
+      nonce_key: "|7KW|N6zP9}v[wBjdu&)`WP7v`T^+psBC,$.JW`WGZ{R)f=PG9-9BqmdI|J=B~@M"
+      auth_salt: "aOE/cZx3l_|O?a@EGg)%E-!;a`gNtsq-+)lC&6qbD0*sKTe![{J]v8hqd1edJ8hv"
+      secure_auth_salt: "{zMj;,}*Nd14Pb{f] e/Z?K>Sg;Nc%-!Lstz4VW_8O5Q?SAVk.wj^p5Pq%a4/Omw"
+      logged_in_salt: "TlSr2R9oX`HXq;c#F2Oj%GFjiuHXU--qC?,j@ i!jmvn~|t>1PAz2bB3I+N8q+Dr"
+      nonce_salt: "S+4q>- ci9H]3.W%4;[|MS{_@p<A%q;K!9uIJyBeU0@,Ej0s>NROYt=:(Lcu|^$}"
