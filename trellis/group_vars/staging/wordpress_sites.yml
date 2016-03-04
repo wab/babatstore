@@ -1,11 +1,11 @@
 # Documentation: https://roots.io/trellis/docs/remote-server-setup/
 wordpress_sites:
-  example.com:
+  babat.fr:
     site_hosts:
-      - staging.example.com
+      - babat.wabdesign.fr
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/example.com.git # replace with your Git repo URL
-    branch: master
+    repo: git@github.com:wab/babatstore.git # replace with your Git repo URL
+    branch: dev
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     multisite:
       enabled: false
@@ -19,8 +19,8 @@ wordpress_sites:
       duration: 30s
     env:
       disable_wp_cron: true
-      wp_home: http://staging.example.com
-      wp_siteurl: http://staging.example.com/wp
+      wp_home: http://babat.wabdesign.fr
+      wp_siteurl: http://babat.wabdesign.fr/wp
       wp_env: staging
       db_name: example_staging
       db_user: example_dbuser
