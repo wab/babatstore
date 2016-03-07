@@ -3,7 +3,7 @@ vault_mysql_root_password: stagingpw
 
 # Documentation: https://roots.io/trellis/docs/security/
 vault_sudoer_passwords:
-  trellis: $6$5EixpfREeDI0r$J9QWu3sC1K81qKydiGj3n6.MVbwTxMcHFtyQXjj0.Hc8Ee0mdATRargeMkd8gGnUzW7VMMgz/8at8UFQTYZ8X0
+  trellis: $6$rounds=656000$fMjUeN13i/W.Hhe3$A.mqv/dX/4HVUvIFRVZ5DGsQL26/2GbG7uI89Qvhm2KKqO5aXuaeXITh8.tByFmCsQeT9yIyF5HIeqWyueKVq1
 
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 vault_wordpress_sites:
