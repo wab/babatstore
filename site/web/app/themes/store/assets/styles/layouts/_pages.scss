@@ -35,6 +35,8 @@
 	.intro {
 		padding: 1em;
 		width: 100%;
+		color: $body-bg;
+		text-shadow: 1px 1px 1px $gray;
 		@include media-breakpoint-up(md) {
 			position: absolute;
 			top: 0;
@@ -63,5 +65,13 @@
 			}
 			
 		}
+	}
+}
+
+.newsletter {
+	background: $gray-lighter;
+
+	input[type="email"] {
+		width: 400px; 
 	}
 }

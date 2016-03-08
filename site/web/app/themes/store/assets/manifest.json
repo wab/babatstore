@@ -26,6 +26,6 @@
     }
   },
   "config": {
-    "devUrl": "http://localhost/babatstore/site/web"
+    "devUrl": "http://babat.dev"
   }
 }

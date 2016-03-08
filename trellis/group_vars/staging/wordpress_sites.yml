@@ -22,8 +22,8 @@ wordpress_sites:
       wp_home: http://babat.wabdesign.fr
       wp_siteurl: http://babat.wabdesign.fr/wp
       wp_env: staging
-      db_name: example_staging
-      db_user: example_dbuser
+      db_name: babat_staging
+      db_user: babat_dbuser
       # Define the following variables in group_vars/staging/vault.yml
       # db_password:
       # auth_key:

@@ -6,10 +6,10 @@
 
 <?php while (have_posts()) : the_post(); ?>
 
-<div class="intro">
+<!-- <div class="intro">
   <?php //get_template_part('templates/content', 'page'); ?>
   <h1 class="text-xs-center logo"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo.png" alt="" width="100px"><br><?php bloginfo('name'); ?><br><small><?php bloginfo('description'); ?></small></h1>
-</div>
+</div> -->
 
 <div class="column professionnels">
 	<div class="wrapper">
